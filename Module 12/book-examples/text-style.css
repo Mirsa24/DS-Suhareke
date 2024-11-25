@@ -4,5 +4,15 @@
     word-spacing: 15px;
     text-decoration: underline;
     text-align: center;
+    font-family: "body-text";
     font-size: 60px;
+}
+@font-face{
+    font-family: "body-text";
+    src: url( Fonts/Sevillana-Regular.ttf);
+}
+.font-class{
+    font-family: "body-text";
+    font-size: 16px;
+    font-weight: 400;
 }
