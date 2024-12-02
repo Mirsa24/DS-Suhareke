@@ -1,0 +1,27 @@
+ol{
+    list-style-type: square;
+}
+li{
+    border-bottom: 1px solid red;
+}
+ul{
+    list-style-image: url('');
+}
+td, th{
+    border: 1px solid;
+    padding: 20px;
+    border-collapse: collapse;
+}
+table,table tr{
+    border-collapse: collapse;
+}
+table tbody > tr:nth-child(odd)
+{
+    background-color: blueviolet;
+}
+div{
+    width: 300px;
+    height: 250px;
+    background-color: blue;
+    overflow: auto;
+}
