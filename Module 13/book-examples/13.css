@@ -15,3 +15,13 @@ td, th{
 table,table tr{
     border-collapse: collapse;
 }
+table tbody > tr:nth-child(odd)
+{
+    background-color: blueviolet;
+}
+div{
+    width: 300px;
+    height: 250px;
+    background-color: blue;
+    overflow: auto;
+}
