@@ -1,0 +1,39 @@
+article > p{
+    background-color: darkmagenta;
+    text-shadow: 10px;
+
+}
+article >div>p{ 
+    color:red;
+}
+article +p{color: blue; }
+article +p+p{
+    color: brown;
+}
+input:in-range{
+    background-color: green;
+}
+input:out-of-range{
+    background-color: red;
+}
+input:focus{
+    background-color: blueviolet;
+}
+input:required{
+    background-color: dimgray;
+}
+p:first-of-type{
+    background-color: deeppink;
+}
+p::first-letter{
+    background-color: aqua;
+}
+p::first-line{
+    background-color: hotpink;
+}
+p::after{
+    content: "+"
+}
+p::selection{
+    background-color: lawngreen;
+}
