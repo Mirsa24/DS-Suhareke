@@ -1,9 +1,7 @@
-ol{
-    
+.easy{
+    color: deeppink;
+    background-color: blue;
 }
-
-
-    list-style-type: square
 li{
     border-botoltom: 1px solid red;
 }
