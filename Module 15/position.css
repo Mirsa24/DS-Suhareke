@@ -2,4 +2,56 @@
     border: 1px solid;
     width: 300px;
     height: 300px;
+    position: static;
+    padding: 10px;
+    
+}
+.absolute{
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    position: absolute;
+    left: 600px;
+    top: 50px;
+}
+.relative{
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    position: relative;
+    left: 600px;
+    top: 50px;
+}
+
+.sticky{
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    position: sticky;
+    left: 600px;
+    top: 50px;
+}
+.fixed{
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    position: fixed;
+    left: 600px;
+    top: 50px;
+}
+div.relative{
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+div.absoluite{
+    position: absolute;
+    width: 40px;
+    border: 1px solid;
+    left: calc(50% - 20px);
+    top: calc(50% - 20px);
+    right: 50%;
 }
