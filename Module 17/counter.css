@@ -35,6 +35,7 @@ div{
      padding-box
      content-box
 red;
-
-
+}
+.shadow{
+    box-shadow:  5px 100px 5px gray;
 }
