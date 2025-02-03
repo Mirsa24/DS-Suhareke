@@ -1,0 +1,22 @@
+.hi{
+    display: flex;
+    background-color: palevioletred;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+.flex-container > div{
+    padding: 20px;
+    margin: 15px;
+    color: white;
+    border: 1px solid white;
+}
+.flex-container > {
+
+}
+.flex-container > {
+   align-self: center;
+
+}
